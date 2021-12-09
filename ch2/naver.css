@@ -1,0 +1,28 @@
+/*선택자(selector)*/
+/*CSS:cascading(덮어씌우다) Style Sheet*/
+
+div#header-center{
+margin: 0 auto; 
+width: 1130px;
+}
+
+
+div#header-search > h1 /*자식 ,로고*/{
+    width: 222px;
+    display: inline-block; /*마진삭제, 붙는효과*/
+}
+
+
+div#header-search > h2 /*자식 ,검색창*/{
+    display: none; /*시각장애분들 전용*/
+}
+
+div#header-search > fieldset {
+    width: 444px;
+    display: inline-block; /*마진삭제, 붙는효과*/
+}
+/*
+div#header-center h1{
+    자손선택자
+} 
+*/
